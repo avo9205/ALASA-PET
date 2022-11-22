@@ -1,0 +1,28 @@
+
+.table{
+    position: relative;
+    width: 600px;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-spacing: initial;
+    background-color: aliceblue;
+}
+
+.main-row{
+    color: white;
+    background-color: black;
+}
+.main-row__item{
+    display: table-cell;
+    padding: 5px;
+}
+
+.body-row__item{
+    padding-left: 70px;
+}
+.body-row:hover{
+    background-color: rgba(0, 0, 0, 0.072);
+    transition: .2s;
+}

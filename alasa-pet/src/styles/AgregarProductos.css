@@ -1,0 +1,39 @@
+.container-form{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+    width: 550px;
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px 2px #a07ac8;
+    background-color: rgba(255, 255, 255, 0.176);
+}
+.form-ingresar-productos{
+    margin-top: 30px;
+}
+
+
+.form-input>input{
+    width: 390px;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
+.form-input>button{
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    background-color: #60269e;
+}
+
