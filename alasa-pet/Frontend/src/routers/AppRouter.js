@@ -20,7 +20,7 @@ import CarritoCompras from "../components/CarritoCompras";
 const AppRouter = () =>{
     return (
         <>  
-    
+        
         <NavBar/>
             <Switch>
                 <Route exact path={routes.home} component={Home}/>
@@ -32,6 +32,7 @@ const AppRouter = () =>{
                 <PrivateRoute exact path={routes.ventas} component={ListaVentas}/>
                 <PrivateRoute exact path={routes.productos} component={ListarProductos}/>
                 <PrivateRoute exact path={routes.carrito} component={CarritoCompras}/>
+                <PrivateRoute exact path={routes.productos} component={CarritoCompras}/>
                 <Route path="*" component={Error404}/>
             </Switch>
         

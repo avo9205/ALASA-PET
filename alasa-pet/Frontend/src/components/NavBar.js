@@ -9,10 +9,11 @@ const NavBar = () => {
     <main>
       <nav className="menu">
           <Link className="menu__link" to={routes.home}>Home</Link>
-          <Link className="menu__link" to={routes.perros}>Productos</Link>
+          <Link className="menu__link" to={routes.perros}>Galleria</Link>
           <Link className="menu__link" to={routes.crearProducto} >Crear producto</Link>
-          <Link className="menu__link" to={routes.ventas} >ventas</Link>
+          <Link className="menu__link" to={routes.ventas} >Ventas</Link>
           <Link className="menu__link" to={routes.carrito} >Carritos</Link>
+          <Link className="menu__link" to={routes.productos} >Productos</Link>
       </nav>
 
     </main>
