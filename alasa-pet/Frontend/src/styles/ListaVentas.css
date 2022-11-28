@@ -1,8 +1,16 @@
+.container-tabla{
+    position: relative;
+    top: 150px;
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .table{
     position: relative;
-    width: 600px;
-    top: 200px;
+    width: 90%;
+    top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: table;
@@ -20,9 +28,36 @@
 }
 
 .body-row__item{
-    padding-left: 70px;
+    padding-left: 50px;
 }
 .body-row:hover{
     background-color: rgba(0, 0, 0, 0.072);
     transition: .2s;
+}
+
+.add-product{
+    position: relative;
+    left: 40px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.676);
+}
+.btn-blue,
+.btn-red{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0 5px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-red{
+    background-color: rgba(255, 0, 0, 0.745);
+}
+.btn-blue{
+    background-color: rgba(0, 0, 255, 0.802);
 }

@@ -1,10 +1,16 @@
 import "./App.css";
-import Banner from "./components/Banner";
-import Base from "./components/Base";
-import Rutas from "./components/Rutas";
+import AuthProvider from "./auth/AuthProvider";
+import AppRouter from "./routers/AppRouter";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-  return <Rutas />;
+  return (
+    <Router>
+      <AuthProvider>
+        <AppRouter />
+      </AuthProvider>
+    </Router>
+  );
 }
 
 export default App;

@@ -1,10 +1,12 @@
 import Base from "../components/Base";
+import Galleria from "../pages/Galleria";
 
 const Perros = () => {
+
   return (
     <>
       <Base />
-      <p>Hola soy un perro</p>
+      <Galleria/>
     </>
   );
 };

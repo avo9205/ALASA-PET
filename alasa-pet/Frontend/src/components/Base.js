@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping, faUser,faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
 import NavBar from "../components/NavBar";
 import { Link } from 'react-router-dom';
+import routes from "../helpers/routes";
 
 const Base = () => {
   return (
@@ -10,13 +11,13 @@ const Base = () => {
         <div className="texto-left">Tienda de mascotas - alasa pet</div>
         <div className="texto-right">Contactar - 4446950</div>
         <div className="logo">
-          <a href="/">
+          <Link to={routes.home}>
             <img
               className="logo-imagen"
               src={require("../images/logo.png")}
               alt="logo"
             />
-          </a>
+          </Link>
         </div>
         <div className="contenedor-busqueda">
           <div className="contenedor-form">
@@ -33,7 +34,7 @@ const Base = () => {
           </div>
         </div>
         <div className="login">
-          <Link to="/login" title="Iniciar sesión">
+          <Link to={routes.login} title="Iniciar sesión">
             <FontAwesomeIcon icon={faUser} className="prueba"/>
           </Link>
         </div>

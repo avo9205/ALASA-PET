@@ -1,0 +1,44 @@
+.galeria{
+    position: relative;
+    top: 125px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 5px 4px #08a05ca4;
+    padding: 0 15px;
+    box-sizing: border-box;
+    
+}
+.producto__img{
+    max-width: 100%;
+
+}
+.productos{
+    position: relative;
+    padding-top: 30px;
+    columns: 3 150px;
+    column-gap: .5em; 
+    
+}
+.producto{
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 5px 6px rgb(0, 0, .2);
+    
+}
+.producto:hover{
+    top: 2px;
+}
+.producto__name,
+.producto__price,
+.producto__btn{
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.producto__btn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgba(49, 49, 139, 0.358);
+}

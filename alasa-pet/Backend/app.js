@@ -11,6 +11,9 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use('/products', router)
+app.use('/carshop', router)
+// Ruta login
+
 
 app.listen(port,()=>{
     console.log(`Servidor melo`)
